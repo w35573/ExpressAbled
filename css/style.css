@@ -1,0 +1,12 @@
+/* Home Section */
+
+.home{
+    min-height: 100vh;
+    padding: 150px 0;
+    background-color: var(--main-to-dark-color);
+}
+
+.home-img img {
+    max-width: 250px;
+    width: 100%;
+}
