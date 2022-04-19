@@ -259,9 +259,53 @@ body {
 
 /* Video pop */
 
-
+.video-popup{
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+}
 
 .section-padding{
   padding: 80px 0;
+  
+}
+
+.section-title{
+  margin-bottom: 60px;
+}
+
+.section-title h2{
+  font-size: 40px;
+  color: var(--black-900);
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.section-title h2 span{
+  color: var(--main-color);
+}
+
+/* Features Section */
+
+.features .feature-item {
+  box-shadow: var(--shadow-black-100);
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.features .feature-item .icon{}
+.features .feature-item .icon i{}
+
+.features .feature-item h3 {
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  color: var(--black-900);
+  font-weight: 500;
+}
+
+.features .feature-item p {
   
 }
