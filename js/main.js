@@ -4,6 +4,7 @@
 $('.features-carousel').owlCarousel({
     loop: true,
     margin: 10,
+    autoplay: true,
     responsiveClass: true,
     responsive: {
         0: {
