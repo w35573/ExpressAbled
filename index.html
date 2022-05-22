@@ -417,17 +417,19 @@
 
           <div class="col-lg-8 col-md-7">
             <div class="contact-form">
-              <form>
+              <form action="https://formsubmit.co/srushant23@gmail.com" method="POST">
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Your Name" class="form-control">
+                      <input type="text" name="name" placeholder="Your Name" class="form-control">
                     </div>
                   </div>
+                  
+                  <input type="hidden" name="_autoresponse" value="Hey! Thank you for your Response. We are glad to connect with you!  &#10Regards &#10Team ExpressAbled">
 
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Your Email" class="form-control">
+                      <input type="text" name="email" placeholder="Your Email" class="form-control">
                     </div>
                   </div>
                 </div>
@@ -443,7 +445,7 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Subject" class="form-control">
+                      <input type="text" name="_subject" placeholder="Subject" class="form-control">
                     </div>
                   </div>
                 </div>
@@ -451,7 +453,7 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-group">
-                      <textarea placeholder="Your Message" class="form-control"></textarea>
+                      <textarea name="message" placeholder="Your Message" class="form-control"></textarea>
                     </div>
                   </div>
                 </div>
